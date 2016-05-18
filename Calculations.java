@@ -3,14 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+/*
+ * This isn't used just yet.  Just some simple conversions for easier use.
+ */
 package corsifenwickcalculator;
 
 /**
  *
  * author Vincent
  */
-public class Calculations {
+public class Calculations { 
     public static int calculateCorsiFor(int shotsFor, int blockedShotsFor, 
             int missedShotsFor){
         return shotsFor + blockedShotsFor + missedShotsFor;
